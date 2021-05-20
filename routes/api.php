@@ -16,8 +16,3 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
-Route::get('books', 'BooksController@getAllBooks');
-Route::get('books/{id}', 'BooksController@getBook');
-Route::post('books', 'BooksController@createBook');
-Route::put('books/{id}', 'BooksController@updateBook');
-Route::delete('books/{id}', 'BooksController@deleteBook');
