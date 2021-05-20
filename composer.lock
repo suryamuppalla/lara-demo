@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8eca873ceeb05e7e3760f438d1806c40",
+    "content-hash": "de3c8c11fc6eb58ebc05c532653cf34f",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -1543,25 +1543,25 @@
         },
         {
             "name": "spatie/laravel-cors",
-            "version": "1.6.0",
+            "version": "1.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-cors.git",
-                "reference": "d74099d57821d5a72ae21416c0be0dcd58779355"
+                "reference": "8e76bcece6567f6426a3c7e23f1a17b747f1bc15"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-cors/zipball/d74099d57821d5a72ae21416c0be0dcd58779355",
-                "reference": "d74099d57821d5a72ae21416c0be0dcd58779355",
+                "url": "https://api.github.com/repos/spatie/laravel-cors/zipball/8e76bcece6567f6426a3c7e23f1a17b747f1bc15",
+                "reference": "8e76bcece6567f6426a3c7e23f1a17b747f1bc15",
                 "shasum": ""
             },
             "require": {
-                "illuminate/support": "5.5.*|5.6.*|5.7.*|5.8.*|^6.0",
-                "php": "^7.2"
+                "laravel/framework": "5.5.*|5.6.*|5.7.*",
+                "php": "^7.0"
             },
             "require-dev": {
-                "orchestra/testbench": "3.5.*|3.6.*|3.7.*|3.8.*|^4.0",
-                "phpunit/phpunit": "^8.0"
+                "orchestra/testbench": "3.5.*|3.6.*|3.7.*",
+                "phpunit/phpunit": "^6.5.4|^7.0"
             },
             "type": "library",
             "extra": {
@@ -1600,10 +1600,10 @@
             ],
             "support": {
                 "issues": "https://github.com/spatie/laravel-cors/issues",
-                "source": "https://github.com/spatie/laravel-cors/tree/1.6.0"
+                "source": "https://github.com/spatie/laravel-cors/tree/master"
             },
             "abandoned": "laravel/framework",
-            "time": "2019-09-04T06:55:15+00:00"
+            "time": "2018-08-27T15:13:39+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
